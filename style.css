@@ -1,0 +1,44 @@
+body{
+    font:14px/1.5 'Montserrat', 'Noto Sans KR' , sans-serif;
+   
+    height: 5000px;
+    background: url('../images/visual_bg.jpg') no-repeat center top/ contain;
+}
+.d-none{
+    display:none;
+}
+.co{
+    width:1000px;
+    height: 515px;
+    margin:0 auto;
+    background:url("../images/corightbg.jpg") no-repeat 500px 0 ,
+                 url("../images/coleftbg.jpg") no-repeat 0 0;
+                 position:relative;
+}
+.coflight{
+    position:absolute;
+    top:10%;
+    left:50%;
+    transform:translateX(-50%);
+}
+.cotext{
+    position:absolute;
+    width:40%;
+    left:55%;
+    top:33%;
+}
+.cotext p{
+    line-height:1.6;
+}
+.point{
+font-size:30px;
+line-height:1.8;
+}
+.btn-down{
+    background: black;
+    color:white;
+   }
+.btn-down a{
+    text-decoration:none;
+    color:white;
+}
